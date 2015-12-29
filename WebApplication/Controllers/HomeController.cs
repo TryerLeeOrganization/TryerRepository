@@ -31,7 +31,7 @@ namespace WebApplication.Controllers
             return View();
         }
 
-        public ActionResult ApiStore()
+        public ActionResult HWeather()
         {
             string url = "WeatherUrl".ValueOfAppSettings();
             string param = "city=beijing";
